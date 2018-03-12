@@ -6,10 +6,11 @@ pipeline {
     
   }
   stages {
-    stage('test1') {
+    stage('Build') {
       steps {
         sh '''#!/bin/bash
 echo "Hello World"'''
+        echo 'Hello world'
       }
     }
   }
